@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22375030357",
+    "project_id": "sales-recoder",
+    "storage_bucket": "sales-recoder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22375030357:android:4a2aefa5b3b617f06d3edc",
+        "android_client_info": {
+          "package_name": "com.example.salesrecoder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDewPwSw6ClxCv4x2S0rexEfA-o3V2rWFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Item Sale Information</string>
+    <string-array name="catagory_array">
+        <item>Select a catagory</item>
+        <item>Food</item>
+        <item>Cloth</item>
+        <item>Books</item>
+
+    </string-array>
+
+</resources>
