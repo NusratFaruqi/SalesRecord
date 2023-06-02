@@ -1,8 +1,5 @@
 package com.example.salesrecoder;
 
-import android.content.Context;
-import android.widget.Toast;
-
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -66,9 +63,9 @@ public class DBHelper {
         private double price;
         private String date;
 
-        private String catagory;
+        public String catagory;
 
-        private String varient;
+        public String varient;
 
         public SalesInfo() {
             // Default constructor required for Firebase

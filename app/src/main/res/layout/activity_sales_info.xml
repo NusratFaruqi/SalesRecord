@@ -77,4 +77,17 @@
         android:layout_marginLeft="30dp"
         />
 
+    <Button
+        android:id="@+id/next_button"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="30dp"
+        />
+
 </RelativeLayout>

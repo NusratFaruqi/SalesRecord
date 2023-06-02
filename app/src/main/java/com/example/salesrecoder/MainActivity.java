@@ -1,7 +1,5 @@
 package com.example.salesrecoder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +14,8 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Calendar;
 
@@ -111,6 +111,9 @@ public class MainActivity extends AppCompatActivity {
                         if (year.equals(checkyear)) {
 
                             try {
+                                System.out.println("category------->"+catagory);
+                                System.out.println("Varient------->"+varient);
+
                                 dbHelper.insertData(item,Integer.parseInt(year),Double.parseDouble(price),date,catagory,varient);
                                 Toast.makeText(MainActivity.this, "Data is inserted", Toast.LENGTH_SHORT).show();
                                 input_item_name.setText("");input_price.setText("");input_year.setText("");
